@@ -1,0 +1,12 @@
+bde:
+  outputs:
+    dev:
+      dbname: postgres
+      host: 34.87.255.98
+      pass: GCloud@1
+      port: 5432
+      schema: bronze
+      threads: 2
+      type: postgres
+      user: postgres
+  target: dev
