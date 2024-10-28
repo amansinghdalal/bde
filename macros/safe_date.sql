@@ -1,4 +1,4 @@
-{% macro safe_date_func() %}
+{% macro safe_date() %}
 CREATE OR REPLACE FUNCTION bronze.safe_date(input_date TEXT, format TEXT)
 RETURNS DATE AS $$
 BEGIN
