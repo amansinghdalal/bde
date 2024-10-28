@@ -17,7 +17,7 @@ SELECT
       HOST_ID,
       HOST_NAME,
       CASE 
-        WHEN safe_date(HOST_SINCE, 'DD-MM-YYYY') IS NOT NULL THEN safe_date(HOST_SINCE, 'DD-MM-YYYY')
+        WHEN to_date(HOST_SINCE, 'DD-MM-YYYY') IS NOT NULL THEN to_date(HOST_SINCE, 'DD-MM-YYYY')
         ELSE NULL 
       END AS HOST_SINCE,
       HOST_IS_SUPERHOST,
