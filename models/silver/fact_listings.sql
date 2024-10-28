@@ -1,1 +1,1 @@
-SELECT * FROM {{ ref('listings')}}
+SELECT * FROM {{ ref('listings_br')}}

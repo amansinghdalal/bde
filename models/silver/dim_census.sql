@@ -1,5 +1,5 @@
 WITH source AS (
-    SELECT * FROM {{ ref('census') }}
+    SELECT * FROM {{ ref('census_br') }}
 )
 
 SELECT * 

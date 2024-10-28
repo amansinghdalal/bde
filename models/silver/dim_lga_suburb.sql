@@ -1,5 +1,5 @@
 WITH source AS (
-    SELECT * FROM {{ ref('lga') }}
+    SELECT * FROM {{ ref('lga_br') }}
 )
 
 SELECT 

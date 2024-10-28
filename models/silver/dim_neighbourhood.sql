@@ -3,7 +3,7 @@ WITH table_1 AS (
 ),
 
 table_2 AS(
-	SELECT * FROM {{ ref('lga') }}
+	SELECT * FROM {{ ref('lga_br') }}
 )
 
 SELECT
