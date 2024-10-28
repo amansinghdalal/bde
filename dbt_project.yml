@@ -25,12 +25,8 @@ models:
       +materialized: table
       +schema: silver
     gold:
-      star:
-        +materialized: table
-        +schema: gold
-      mart:
-        +materialized: view
-        +schema: gold
+      +materialized: view
+      +schema: gold
 snapshots:
   bde:
     +schema: silver
